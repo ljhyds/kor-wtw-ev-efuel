@@ -43,7 +43,7 @@ PJM_SOLAR_PV_CONST_UUID = "2a02a37f-8433-3b6e-92c9-94818013f9da"
 
 
 # -----------------------------
-# Sea transport (assumption only; currently *not* linked to a specific background transport process)
+# Sea transport (assumption only)
 # -----------------------------
 SEA_DISTANCE_KM_CRUDE = 15000.0  # weighted average (assumptions.txt)
 SEA_DISTANCE_KM_COAL  = 5500.0
