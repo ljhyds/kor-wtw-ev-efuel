@@ -77,16 +77,6 @@ TAILPIPE_G_PER_KM = {
         "NH3": 0.00761912,
         # CO2 handled separately (below)
     },
-    "e_gasoline": {
-        # Conservative assumption: tailpipe pollutants same as fossil gasoline
-        "CO": 0.393262,
-        "NOx": 0.0263592,
-        "SOx": 0.000628156,
-        "PM10": 0.000805704,
-        "PM2_5": 0.00074109,
-        "VOC": 0.0853883,
-        "NH3": 0.00761912,
-    },
     "diesel": {
         "CO": 0.0598509,
         "NOx": 1.0806,
@@ -101,7 +91,6 @@ TAILPIPE_G_PER_KM = {
 # CO2 (kg/km) from assumptions.txt (fuel economy-based)
 CO2_KG_PER_KM = {
     "gasoline": 0.1925,
-    "e_gasoline": 0.1925,
     "diesel":   0.1760,
 }
 
@@ -112,7 +101,6 @@ CO2_KG_PER_KM = {
 # -----------------------------
 FUEL_KG_PER_KM = {
     "gasoline": 1.0/12.0/1.35,
-    "e_gasoline": 1.0/12.0/1.35,
     "diesel":   1.0/15.0/1.19,
 }
 
@@ -145,16 +133,6 @@ REFINERY_G_PER_KG_FUEL = {
         "PM2_5": 0.00274899,
         "VOC": 0.0117645,
         "NH3": 0.00372445,
-    },
-    "e_gasoline": {
-        # Conservative assumption: tailpipe pollutants same as fossil gasoline
-        "CO": 0.393262,
-        "NOx": 0.0263592,
-        "SOx": 0.000628156,
-        "PM10": 0.000805704,
-        "PM2_5": 0.00074109,
-        "VOC": 0.0853883,
-        "NH3": 0.00761912,
     },
     "diesel": {
         "CO": 0.032215,
